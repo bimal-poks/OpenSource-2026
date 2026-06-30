@@ -48,7 +48,7 @@ const moveToPage = (page:string) => {
   window.scrollTo(0,0);
 }
   return (
-    <header className="main-header clearfix" role="header">
+    <header className="main-header clearfix" role="banner">
       <div className="logo" onClick={()=>scrollToSection('section1')}>
         <img src={logo} alt="" width="110" height="35" />
       </div>
